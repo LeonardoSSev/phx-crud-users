@@ -3,8 +3,8 @@ use Mix.Config
 # Configure your database
 config :phx_crud_users, PhxCrudUsers.Repo,
   username: "postgres",
-  password: "postgres",
-  database: "phx_crud_users_dev",
+  password: "123",
+  database: "postgres",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
